@@ -32,6 +32,12 @@ footer{
   justify-content: flex-end;
   padding: 25px;
 }
+
+.header-content > span{
+    background-color: gray;
+    padding: 5px;
+}
+
 /*MAIN*/
 .container {
   max-width: 1152px;
@@ -41,6 +47,7 @@ footer{
   color: white;
   justify-content: center;
   align-content: flex-start;
+  min-width: calc(100% / 7 - 10px);
 }
 
 
@@ -49,7 +56,8 @@ footer{
   position: relative;
   padding: 5px;
   min-height: 80px;
-  min-width: calc(100% / 5 - 10px);
+  margin-bottom: 20px;
+
 }
 
 .content img {
@@ -72,9 +80,12 @@ footer{
 footer i{
     margin:8px;
 }
-
 .action{
-    margin:8px;
+    margin-right: 80px;
+}
+
+.invite{
+    justify-content:;
 }
 
 .right-side{
@@ -82,5 +93,9 @@ footer i{
     height: 80px;
     align-items: center;
     background-color: #4a4a4a;
+}
 
+.mic-mute{
+    position: absolute;
+    bottom: 12px;
 }
