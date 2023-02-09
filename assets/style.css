@@ -48,6 +48,7 @@ footer{
   justify-content: center;
   align-content: flex-start;
   min-width: calc(100% / 7 - 10px);
+  margin-top: 200px;
 }
 
 
@@ -56,6 +57,7 @@ footer{
   position: relative;
   padding: 5px;
   min-height: 80px;
+  width: 150px;
   margin-bottom: 20px;
 
 }
@@ -74,6 +76,7 @@ footer{
 .center-side{
     display: flex;
     flex-basis: 20%;
+    margin-right: 500px;
 }
 
     
