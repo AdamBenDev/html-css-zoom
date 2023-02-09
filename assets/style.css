@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1152px;
+  margin: 0;
+  display: flex;
+  position: relative;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  background-color: black;
+  color: white;
+}
+
+.column {
+}
+
+.content {
+  width: calc(100% / 7);
+  padding: 5px;
+}
+
+.content img {
+  max-width: 100%;
+}
